@@ -9,8 +9,8 @@ main.o: main.cpp
 factorial.o: factorial.c
 	g++ -c factorial.c
 
-squared.o: squared.cpp
-	g++ -c squared.cpp
+squared.o: squared.c
+	g++ -c squared.c
 
 clean:
 	rm *o hello
